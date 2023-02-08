@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #CBEDD5;
+  color: #439A97;
+  line-height: 15px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.title_style {
+  color:  #301E67;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 20px;
+}
+
+#big_title {
+  font-size: 20px;
+  color:  #301E67;
+}
+
+.list_style {
+  line-height: 25px;
+  font-weight: 400px;
+}
+
+.link_style {
+  color: #439A97;
+  text-decoration: none;
+  padding: 8px;
+}
+
+a:hover {
+  background-color: #439A97;
+  color:#CBEDD5
+}
+
+.container{
+  margin: 0 auto;
+  width: 700px;
+  padding: 30px;
+}
+
+.card{
+  background-color: #F4E4D9;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img_circle{
+  border-radius: 50%;
+  width: 150px
+}
+
+.media-style {
+  padding: 0px;
+}
+
+.media-style > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+.paragraph {
+  line-height: 20px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+/* 439A97
+62B6B7 */
