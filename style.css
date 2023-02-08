@@ -93,5 +93,9 @@ a:hover {
   }
 }
 
-/* 439A97
-62B6B7 */
+@media (max-width: 300px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 100%;
+  }
+}
